@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - FBootstrapping Proyecto</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <title>Bootcamp / CV</title>
+        <link type="text/css" rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+            integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+            crossorigin="anonymous" />
+        <!-- <link rel="stylesheet" href="style.css" /> -->
+        <link rel="shortcut icon" href="./favicon.ico">
+    </head>
+
+    <body>
+        <div class="background gradient">
+            <!-- Delete if animation
+        <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+      -->
+        </div>
+        <div class="page">
+            <header>
+                <nav>
+                    <a href="#about" class="selected" id='getAbout'>
+                        <span class="fas fa-user"></span>
+                        <span class="link">ACERCA DE MI</span>
+                    </a>
+                    <a href="#resume" id='getResume'>
+                        <span class="fas fa-file"></span>
+                        <span class="link">ResumeN</span>
+                    </a>
+                    <a href="#contact" id='getContact'>
+                        <span class="fas fa-at"></span>
+                        <span class="link">Contactame</span>
+                    </a>
+                </nav>
+            </header>
+            <main>
+                <section id="presentation" class="profile">
+                    <div class="profile-background"></div>
+                    <div>
+                        <div class="profile-image">
+                            <img src="img/IMG_20200403_113832.png" alt="Ryan Adlard">
+                        </div>
+                        <h1 class="profile-name" id="nombre">Michael Flores</h1>
+                        <h2 class="profile-profession">Desarrollador BackEnd</h2>
+                        <div class="profile-social" id="profile-social">
+                            <a href="www.dribbble.com" class="fab fa-dribbble"></a>
+                            <a href="www.twitter.com" class="fab fa-twitter"></a>
+                            <a href="www.github.com" class="fab fa-github"></a>
+                            <a href="www.spotify.com" class="fab fa-spotify"></a>
+                            <a href="www.stackoverflow.com" class="fab fa-stack-overflow"></a>
+                        </div>
+                    </div>
+                    <div class="profile-buttons">
+                        <a href="/myCV.txt" download>Descargar CV <i class="fas fa-download"></i></a>
+                        <a href="#contact">Contactame <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </section>
+                <section id="about" class="about view">
+                    <article class="about-aboutMe">
+                        <h3 class="title">Acerca de mi</h3>
+                        <div class="line-left">
+                            <p>Mi nombre es Michael Flores Dávila, tengo 28 años y actualmente estoy estudiando
+                                ingeniería de sistemas. Además, soy técnico en telecomunicaciones, lo que me ha brindado
+                                conocimientos sólidos en este campo. Poseo experiencia en fibra óptica y tengo
+                                habilidades de programación a nivel junior. Estoy emocionado por combinar mis
+                                habilidades técnicas con mi formación académica para contribuir al mundo de la
+                                tecnología y seguir creciendo en este campo.</p>
+                            <div>
+                                <div>
+                                    <span>Edad . . . . </span>28
+                                </div>
+                                <div>
+                                    <span>RESIDENCIA . . . . </span>PERU
+                                </div>
+                                <div>
+                                    <span>FREELANCE . . . . </span>DISPONIBLE
+                                </div>
+                                <div>
+                                    <span>DIRECCION . . . . </span>TEODORO CARDENAS 273, LIMA
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </section>
+                <section id="resume" class="resume">
+                    <h3 class="title">Resumen</h3>
+                    <article class="resume-lines">
+                        <section class="resume-line line-left">
+                            <h4 class="line-down"> <i class="fas fa-briefcase"></i> Experiencia</h4>
+                            <article class="line-down">
+                                <div class="date active">2013 - PRESENTE</div>
+                                <h5 class="name">Practicante</h5>
+                                <h6 class="company">FACEBOOK INC.</h6>
+                                <p>Colaborar con equipos creativos y de desarollo en la ejcucion de ideas.</p>
+                            </article>
+                            <article class="line-down">
+                                <div class="date">2011 - 2012</div>
+                                <h5 class="name">FRONT-END DEVELOPER</h5>
+                                <h6 class="company">GOOGLE INC.</h6>
+                                <p>Seguimiento de aspectos tecnicos de la entrega FRONT-END de varios proyectos</p>
+                            </article>
+                            <article>
+                                <div class="date">2009 - 2010</div>
+                                <h5 class="name">DESAROLLADOR JUNIOR</h5>
+                                <h6 class="company">ABC INC.</h6>
+                                <p>Optimice el rendimiento del sitio web utilizando la ultima tegnologia.</p>
+                            </article>
+                        </section>
+                        <section class="resume-line line-left">
+                            <h4 class="line-down"> <i class="fas fa-university"></i> Education</h4>
+                            <article class="line-down">
+                                <div class="date">2019 - presente</div>
+                                <h5 class="name">Estuidante</h5>
+                                <h6 class="company">UTP</h6>
+                                <p>Estudiante de carrea de de ingenieria de sitema en universidad UTP cursando septimo
+                                    ciclo
+                                </p>
+                            </article>
+                            <article class="line-down">
+                                <div class="date">2016 - 2018</div>
+                                <h5 class="name">Curso de programacion</h5>
+                                <h6 class="company">Peru </h6>
+                                <p>Cursos de - Git, WordPress, Javascript, iOS, Android.</p>
+                            </article>
+                            <article>
+                                <div class="date">2018 - 2020</div>
+                                <h5 class="name">CURSO DE DISEÑO WEB</h5>
+                                <h6 class="company">UTP</h6>
+                                <p> Diseños convertidos de photoshop en paginas web utilizando HTML, CSS, and
+                                    JavaScript.</p>
+                            </article>
+                        </section>
+                    </article>
+                    <article class="resume-skills">
+                        <h3 class="title">MIS HABILIDADES</h3>
+                        <div>
+                            <section class="line-left">
+                                <h4 class="line-down"> <i class="fas fa-tv"></i> DISEÑO</h4>
+                                <div class="line-down">
+                                    <div>Diseño web</div>
+                                    <div>
+                                        <div style="width: 70%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="line-down">
+                                    <div>Photoshop</div>
+                                    <div>
+                                        <div style="width: 66%"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>Disseño grafico</div>
+                                    <div>
+                                        <div style="width: 86%"></div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="line-left">
+                                <h4 class="line-down"><i class="fas fa-code"></i> CODIFICACION</h4>
+
+                                <div class="line-down">
+                                    <div>PHP/MYSQL</div>
+                                    <div>
+                                        <div style="width: 40%"></div>
+                                    </div>
+                                </div>
+                                <div class="line-down">
+                                    <div>Angular/JavaScript</div>
+                                    <div>
+                                        <div style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>HTML/CSS</div>
+                                    <div>
+                                        <div style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </article>
+                </section>
+                <section id="contact" class="contact">
+                    <h3 class="title">PONERCE EN CONTACTO</h3>
+                    <div class="contact-information line-left">
+                        <div>
+                            <span>DIRECCION . . . . </span> TEODORO CARDENAS 273,LIMA
+                        </div>
+                        <div>
+                            <span>EMAIL . . . . </span> A15100022@IDAD.EDU.PE
+                        </div>
+                        <div>
+                            <span>THELEPHONE . . . . </span> 959019430
+                        </div>
+                        <div>
+                            <span>FREELANCE . . . . </span> DISPONIBLE
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+    </body>
+
+    </html>
+    <!-- partial -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
